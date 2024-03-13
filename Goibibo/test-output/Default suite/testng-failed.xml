@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Project3.Goibibo.Testcase8">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="goibibotestcase8" invocation-numbers="0"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- Project3.Goibibo.Testcase8 -->
+      <class name="Project3.Goibibo.Testcase3">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="goibibotestcase3" invocation-numbers="0"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- Project3.Goibibo.Testcase3 -->
+      <class name="Project3.Goibibo.Testcase1">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="goibibotestcase1" invocation-numbers="0"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- Project3.Goibibo.Testcase1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
